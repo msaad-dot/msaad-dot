@@ -40,13 +40,19 @@ My projects focus on solving real-world problems with AI, automation, and data-d
 
 ## 📌 Featured Projects
 
-### 1️⃣ Face Mask Detection with Temperature Sensor & Gate Control
+### 1️⃣ CAPTCHA Solver (OCR for Distorted Text)
+- End-to-end CAPTCHA solving with CNN/LSTM (TensorFlow/PyTorch)
+- Trained on ~123k samples, **30 epochs** (integrate_detect.py)
+- Data cleaning, augmentation, and post-processing to boost accuracy
+- [🔗 View Project](https://github.com/msaad-dot/CAPTCHA-Recognition)
+
+### 2️⃣ Face Mask Detection with Temperature Sensor & Gate Control
 - Real-time mask detection using CNN & OpenCV
 - Integrated with temperature sensor and gate control system
 - Achieved **99% validation accuracy**
 - [🔗 View Project](https://github.com/msaad-dot/face-mask-detection)
 
-### 2️⃣ Customer Churn Prediction
+### 3️⃣ Customer Churn Prediction
 - Built ML model to predict telecom customer churn
 - Applied preprocessing, feature selection, and evaluation metrics
 - Delivered actionable insights for retention strategies
