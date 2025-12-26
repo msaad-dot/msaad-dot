@@ -1,62 +1,36 @@
 # 👋 Hi, I'm Mohamed
-I'm a Junior Machine Learning Engineer with hands-on experience in fraud detection, computer vision, and predictive analytics.
-I build end-to-end ML pipelines that focus on real-world impact, especially imbalanced problems, model evaluation, and decision-making.
-My work emphasizes clean data pipelines, reproducibility, and production-ready workflows, not just notebooks.
+I'm a Machine Learning Engineer with hands-on experience in fraud detection,
+computer vision, and predictive analytics.
+
+I build end-to-end ML pipelines focused on real-world impact, especially
+imbalanced classification, probability-based evaluation, and business-driven
+model selection.
 
 ---
 
-## 🛠 Skills
+## 🛠 Core Skills
+- Machine Learning: Classification, Imbalanced Learning, Threshold Optimization, Model Evaluation (PR-AUC)
+- Models: XGBoost, Random Forest, Logistic Regression
+- Deep Learning: CNNs (TensorFlow / Keras)
+- Data Processing: Pandas, NumPy, Feature Engineering
+- Computer Vision: OpenCV
+- Tools: Python, Git, GitHub, Jupyter
 
-### 🧠 Machine Learning & Deep Learning
-- Model training, evaluation, and deployment
-- Imbalanced learning & cost-sensitive modeling
-- Threshold optimization & business-aware evaluation
-- TensorFlow / Keras, Scikit-learn
-- CNNs for image classification
-
-### 📊 Data Science & Analytics
-- Data preprocessing, feature engineering
-- Exploratory Data Analysis (EDA)
-- Data visualization with Matplotlib & Seaborn
-- Statistical analysis and interpretation
-- Model evaluation (ROC-AUC, PR-AUC, Precision–Recall)
-
-### 🎯 Computer Vision
-- Face detection with OpenCV DNN
-- Real-time camera stream processing
-- Image augmentation for robust models
-
-### 🖥 Programming & Tools
-- Python (NumPy, Pandas, Matplotlib, Seaborn)
-- Jupyter Notebooks
-- Git & GitHub for version control
-- Command-line tools for workflow automation
-
-### 🛡 Deployment & Integration
-- Saving and loading ML models
-- Integration with hardware (sensors, controllers)
-- Running ML pipelines in production scripts
-
----
 
 ## 📌 Featured Projects
 
-### 1️⃣ Fraud Detection (Credit Card Transactions)
-
-- End-to-End Machine Learning Pipeline for Highly Imbalanced Data
-- Built a complete ML pipeline for detecting fraudulent credit card transactions
-- Performed Exploratory Data Analysis (EDA), feature scaling, and stratified train–test splitting
-- Handled severe class imbalance using class-weighting and cost-sensitive learning
-- Trained and evaluated Logistic Regression using ROC-AUC and PR-AUC metrics
-- Optimized decision thresholds to balance fraud detection and false positives
-- Applied business-aware evaluation to minimize false negatives
-- Designed a reproducible and well-documented workflow suitable for production
+### 1️⃣ Credit Card Fraud Detection
+- End-to-end ML pipeline for highly imbalanced fraud detection (≈0.17% fraud rate)
+- Evaluated Logistic Regression, Random Forest, and XGBoost using PR-AUC
+- Performed model-specific threshold tuning to balance fraud recall and false positives
+- Reduced false positive alerts by ~94% while maintaining ~86% fraud recall
+- Selected XGBoost as final model based on business-aware trade-off analysis
 - [🔗 View Project](https://github.com/msaad-dot/fraud-detection-ml)
 
-### 2️⃣ CAPTCHA Solver (OCR for Distorted Text)
-- End-to-end CAPTCHA solving with CNN/LSTM (TensorFlow/PyTorch)
-- Trained on ~123k samples, **30 epochs** (integrate_detect.py)
-- Data cleaning, augmentation, and post-processing to boost accuracy
+
+### 2️⃣ CAPTCHA Solver (Computer Vision)
+- CNN-based CAPTCHA recognition system trained on 123K+ samples
+- Image preprocessing, augmentation, and inference pipeline
 - [🔗 View Project](https://github.com/msaad-dot/CAPTCHA-Recognition)
 
 ### 3️⃣ Face Mask Detection with Temperature Sensor & Gate Control
