@@ -23,8 +23,8 @@ model selection.
 - End-to-end ML pipeline for highly imbalanced fraud detection (≈0.17% fraud rate)
 - Evaluated Logistic Regression, Random Forest, and XGBoost using PR-AUC
 - Performed model-specific threshold tuning to balance fraud recall and false positives
-- Reduced false positive alerts by ~94% while maintaining ~86% fraud recall
-- Selected XGBoost as final model based on business-aware trade-off analysis
+- Reduced false positive alerts by approximately 94 percent while maintaining ~86 percent fraud recall, leading to a significantly lower expected operational cost
+- Selected XGBoost as the final model using cost-based evaluation and expected financial loss analysis
 - [🔗 View Project](https://github.com/msaad-dot/fraud-detection-ml)
 
 
