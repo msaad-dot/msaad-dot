@@ -25,6 +25,7 @@ model selection.
 - Performed model-specific threshold tuning to balance fraud recall and false positives
 - Reduced false positive alerts by approximately 94 percent while maintaining ~86 percent fraud recall, leading to a significantly lower expected operational cost
 - Selected XGBoost as the final model using cost-based evaluation and expected financial loss analysis
+- Included production-ready inference module with config-driven decision logic and API-ready design.
 - [🔗 View Project](https://github.com/msaad-dot/fraud-detection-ml)
 
 
